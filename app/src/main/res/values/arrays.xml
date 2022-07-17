@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="major">
+
+        <item>조리학과</item>
+        <item>비즈니스영어과</item>
+        <item>일본어과</item>
+        <item>비서행정과</item>
+        <item>비서전공</item>
+        <item>사무행정전공</item>
+        <item>관광중국어과</item>
+        <item>국제무역물류학과</item>
+        <item>패션산업학과</item>
+        <item>경영과</item>
+        <item>세무회계과</item>
+        <item>아동보육과</item>
+        <item>호텔관광과</item>
+        <item>한복문화콘텐츠과</item>
+        <item>식품영양학과</item>
+        <item>유아교육과</item>
+        <item>스마트IT학과</item>
+        <item>SW보안융합학과</item>
+    </string-array>
+</resources>
