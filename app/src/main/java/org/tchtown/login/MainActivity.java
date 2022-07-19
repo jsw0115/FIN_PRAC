@@ -8,18 +8,41 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.LinearLayout;
+import android.widget.ListView;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
+    private ListView noticeListView;
+    private NoticeListAdapter adapter;
+    private List<notice> noticeList;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+
+
+        ///////////////////////////////////////////////////////////
+        noticeListView = (ListView) findViewById(R.id.noticeListView);
+
+
+
+
+        noticeList = new ArrayList<>();
+        noticeList.add(new notice("공지사항입니다.","안경잡이개발자","2022-01-01"));
+        noticeList.add(new notice("공지사항입니다.","안경잡이개발자","2022-01-01"));
+        noticeList.add(new notice("공지사항입니다.","안경잡이개발자","2022-01-01"));
+        adapter = new NoticeListAdapter(getApplicationContext(), noticeList);
+        noticeListView.setAdapter(adapter);
+
         final Button courseButton = (Button) findViewById(R.id.courseButton);
         final Button statisticsButton = (Button) findViewById(R.id.statisticsButton);
         final Button scheduleButton = (Button) findViewById(R.id.scheduleButton);
         final LinearLayout notice = (LinearLayout) findViewById(R.id.notice);
+
 
         courseButton.setOnClickListener(new View.OnClickListener(){
              @Override

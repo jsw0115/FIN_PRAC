@@ -72,12 +72,13 @@
                 android:layout_marginTop="8dp">
 
 
-            <ImageButton
-                android:layout_width="125dp"
-                android:layout_height="125dp"
-                android:layout_gravity="center"
-                android:layout_marginTop="20dp"
-                android:src="@drawable/baewh"/>
+                <ImageButton
+                    android:layout_width="125dp"
+                    android:layout_height="125dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:src="@drawable/baewh"
+                    tools:ignore="SpeakableTextPresentCheck" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -90,6 +91,13 @@
                 android:layout_marginTop="10dp"/>
 
             </LinearLayout>
+            <ListView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/naticeListView"
+                android:layout_margin="10dp"
+                android:dividerHeight="10dp"
+                android:divider="#ffffff"></ListView>
         </LinearLayout>
         <RelativeLayout
             android:layout_width="match_parent"

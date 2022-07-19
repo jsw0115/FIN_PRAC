@@ -6,6 +6,7 @@
         <entry key="..\:/Users/jsw01/AndroidStudioProjects/Login/app/src/main/res/drawable/ic_baseline_lock_24.xml" value="0.1005" />
         <entry key="..\:/Users/jsw01/AndroidStudioProjects/Login/app/src/main/res/drawable/ic_baseline_mail_outline_24.xml" value="0.24" />
         <entry key="..\:/Users/jsw01/AndroidStudioProjects/Login/app/src/main/res/drawable/ic_baseline_person_24.xml" value="0.1005" />
+        <entry key="..\:/Users/jsw01/AndroidStudioProjects/Login/app/src/main/res/drawable/ic_baseline_textsms_24.xml" value="0.363" />
         <entry key="..\:/Users/jsw01/AndroidStudioProjects/Login/app/src/main/res/drawable/ic_launcher_background.xml" value="0.222" />
         <entry key="..\:/Users/jsw01/AndroidStudioProjects/Login/app/src/main/res/layout/activity_login.xml" value="0.2" />
         <entry key="..\:/Users/jsw01/AndroidStudioProjects/Login/app/src/main/res/layout/activity_login_request.xml" value="0.3619791666666667" />
@@ -14,6 +15,7 @@
         <entry key="..\:/Users/jsw01/AndroidStudioProjects/Login/app/src/main/res/layout/fragment_course.xml" value="0.3619791666666667" />
         <entry key="..\:/Users/jsw01/AndroidStudioProjects/Login/app/src/main/res/layout/fragment_schedule.xml" value="0.34739583333333335" />
         <entry key="..\:/Users/jsw01/AndroidStudioProjects/Login/app/src/main/res/layout/fragment_statics.xml" value="0.34739583333333335" />
+        <entry key="..\:/Users/jsw01/AndroidStudioProjects/Login/app/src/main/res/layout/notice.xml" value="0.3609375" />
       </map>
     </option>
   </component>
