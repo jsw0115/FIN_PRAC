@@ -33,9 +33,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-
-
-        ///////////////////////////////////////////////////////////
         noticeListView = (ListView) findViewById(R.id.noticeListView);
         noticeList = new ArrayList<>();
         adapter = new NoticeListAdapter(getApplicationContext(), noticeList);
@@ -48,17 +45,17 @@ public class MainActivity extends AppCompatActivity {
 
 
         courseButton.setOnClickListener(new View.OnClickListener(){
-             @Override
+            @Override
             public void onClick(View view){
-                 notice.setVisibility(View.GONE);
-                 courseButton.setBackgroundColor(getResources().getColor(R.color.colorPrimaryDark));
-                 statisticsButton.setBackgroundColor(getResources().getColor(R.color.colorPrimary));
-                 scheduleButton.setBackgroundColor(getResources().getColor(R.color.colorPrimary));
-                 FragmentManager fragmentManager= getSupportFragmentManager();
-                 FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
-                 fragmentTransaction.replace(R.id.fragment, new CourseFragment());
-                 fragmentTransaction.commit();
-             }
+                notice.setVisibility(View.GONE);
+                courseButton.setBackgroundColor(getResources().getColor(R.color.colorPrimaryDark));
+                statisticsButton.setBackgroundColor(getResources().getColor(R.color.colorPrimary));
+                scheduleButton.setBackgroundColor(getResources().getColor(R.color.colorPrimary));
+                FragmentManager fragmentManager= getSupportFragmentManager();
+                FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
+                fragmentTransaction.replace(R.id.fragment, new CourseFragment());
+                fragmentTransaction.commit();
+            }
         });
 
         statisticsButton.setOnClickListener(new View.OnClickListener(){

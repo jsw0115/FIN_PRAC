@@ -30,7 +30,7 @@
             android:padding="3dp"
             android:text="정성원"
             android:textColor="#ffffff"
-            android:textColorHint="#fffffff" />
+            android:textColorHint="#ffffff" />
 
         <TextView
             android:id="@+id/dateText"
@@ -40,7 +40,7 @@
             android:padding="3dp"
             android:text="2022-07-18"
             android:textColor="#ffffff"
-            android:textColorHint="#fffffff" />
+            android:textColorHint="#ffffff" />
 
     </LinearLayout>
 
